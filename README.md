@@ -1,50 +1,31 @@
-# 🧪 Desafio 1 — Automação E2E com Saucedemo
 
-Este projeto automatiza um fluxo completo de e-commerce utilizando Selenium WebDriver em Python.
+# 📘 DESAFIO 1 — Selenium UI Interactions
+
+```markdown
+# 🧪 Desafio 2 — Interações Avançadas com Selenium
+
+Este projeto foca em interações dinâmicas com elementos de interface web utilizando Selenium.
 
 ---
 
 ## 🎯 Objetivo
 
-Simular um fluxo real de compra em uma aplicação web:
+Trabalhar manipulação de UI dinâmica, incluindo:
 
-- Login
-- Filtro de produtos
-- Adição ao carrinho
-- Checkout
-- Finalização da compra
-- Logout
+- Esperas explícitas
+- Interação com elementos dinâmicos
+- Clicks seguros
+- Navegação entre estados de tela
 
 ---
 
-## 🔗 Site utilizado
+## ⚙️ Técnicas utilizadas
 
-https://www.saucedemo.com/
-
----
-
-## ⚙️ Fluxo automatizado
-
-1. Acesso ao site
-2. Login com usuário padrão
-3. Aplicação de filtro:
-   - Price (low to high)
-4. Adição dos 3 primeiros produtos ao carrinho
-5. Validação do badge do carrinho
-6. Acesso ao carrinho
-7. Checkout
-8. Preenchimento de dados do usuário
-9. Finalização da compra
-10. Logout
-
----
-
-## 🧠 Validações realizadas
-
-- Login bem-sucedido (URL contém `/inventory`)
-- Carrinho com 3 itens
-- Finalização com sucesso (URL contém `/complete`)
-- Logout retorna à tela inicial
+- WebDriverWait
+- Expected Conditions (EC)
+- Seletores CSS e XPath
+- Scroll via JavaScript
+- Tratamento de elementos dinâmicos
 
 ---
 
