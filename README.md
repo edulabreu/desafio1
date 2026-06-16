@@ -1,7 +1,7 @@
 
 # 📘 DESAFIO 1 — Selenium - Interações com UI 
 ```markdown
-# 🧪 Desafio 2 — Interações Avançadas com Selenium
+# 🧪 Desafio 1 — Interações Avançadas com Selenium
 
 Este projeto foca em interações dinâmicas com elementos de interface web utilizando Selenium.
 
